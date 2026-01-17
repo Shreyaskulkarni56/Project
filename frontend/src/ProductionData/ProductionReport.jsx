@@ -21,7 +21,7 @@ export default function ProductionReport() {
 
   console.log("before hardcoded", MachineData)
 
-  const TOTALHr = "10:00";
+  const TOTALHr = "08:00";
 
   // Helper functions moved to utils
 
