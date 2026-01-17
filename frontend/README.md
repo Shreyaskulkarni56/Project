@@ -13,7 +13,7 @@ The user can:
 * Select a **From Date** and **To Date**
 * Choose a **Machine** from multiple available machines
 * Click **Submit** to view filtered production details
-
+* Click **Download** to download the production details in an Excel file
 ---
 
 ## 🎯 Features
