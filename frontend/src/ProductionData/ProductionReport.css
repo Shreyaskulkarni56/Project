@@ -280,11 +280,20 @@
   padding: 24px !important;
 }
 
-/* Remove Recharts Focus Outline */
+/* Remove Recharts Focus Outline Globally */
+.recharts-wrapper *:focus,
 .recharts-surface:focus,
+.recharts-layer:focus,
 .recharts-sector:focus,
-.recharts-wrapper:focus {
+.recharts-legend-wrapper:focus {
   outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Ensure no outline on specific SVG paths */
+.recharts-surface path:focus {
+  outline: none !important;
+  border: none !important;
 }
 
 /* Animations */

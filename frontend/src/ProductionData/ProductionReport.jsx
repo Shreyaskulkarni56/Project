@@ -151,7 +151,7 @@ export default function ProductionReport() {
         <div className="logo-circle">
           <span style={{ fontSize: '22px', fontWeight: 'bold', letterSpacing: '1px' }}>STS</span>
         </div>
-        <h1 className="header-title">Production Report</h1>
+        <h1 className="header-title">Idle Time Report Production </h1>
       </div>
 
       {/* Filter Section */}
