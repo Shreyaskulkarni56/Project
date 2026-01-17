@@ -1,0 +1,13 @@
+import { useState } from 'react'
+import ProductionReport from './ProductionData/ProductionReport'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+// import './App.css'
+
+function App() {
+      return(
+            <ProductionReport/>
+      )                                         
+      }
+
+export default App

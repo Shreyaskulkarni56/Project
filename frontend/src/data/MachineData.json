@@ -1,0 +1,302 @@
+[
+  {
+    "machineId": "Machine 001",
+    "date": "01-01-2026",
+    "totalMachineWorkingHr": "06:15",
+    "totalMachineIdleHr": "01:45"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "02-01-2026",
+    "totalMachineWorkingHr": "06:30",
+    "totalMachineIdleHr": "01:30"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "03-01-2026",
+    "totalMachineWorkingHr": "07:00",
+    "totalMachineIdleHr": "01:00"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "03-01-2026",
+    "totalMachineWorkingHr": "06:45",
+    "totalMachineIdleHr": "01:15"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "05-01-2026",
+    "totalMachineWorkingHr": "06:20",
+    "totalMachineIdleHr": "01:40"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "07-01-2026",
+    "totalMachineWorkingHr": "07:10",
+    "totalMachineIdleHr": "00:50"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "10-01-2026",
+    "totalMachineWorkingHr": "06:50",
+    "totalMachineIdleHr": "01:10"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "10-01-2026",
+    "totalMachineWorkingHr": "07:05",
+    "totalMachineIdleHr": "00:55"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "12-01-2026",
+    "totalMachineWorkingHr": "06:15",
+    "totalMachineIdleHr": "01:45"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "13-01-2026",
+    "totalMachineWorkingHr": "06:30",
+    "totalMachineIdleHr": "01:30"
+  },
+  {
+    "machineId": "Machine 001",
+    "date": "14-01-2026",
+    "totalMachineWorkingHr": "06:45",
+    "totalMachineIdleHr": "01:15"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "02-01-2026",
+    "totalMachineWorkingHr": "07:30",
+    "totalMachineIdleHr": "00:30"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "04-01-2026",
+    "totalMachineWorkingHr": "07:15",
+    "totalMachineIdleHr": "00:45"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "06-01-2026",
+    "totalMachineWorkingHr": "07:45",
+    "totalMachineIdleHr": "00:15"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "06-01-2026",
+    "totalMachineWorkingHr": "07:20",
+    "totalMachineIdleHr": "00:40"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "08-01-2026",
+    "totalMachineWorkingHr": "07:35",
+    "totalMachineIdleHr": "00:25"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "11-01-2026",
+    "totalMachineWorkingHr": "07:40",
+    "totalMachineIdleHr": "00:20"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "12-01-2026",
+    "totalMachineWorkingHr": "07:30",
+    "totalMachineIdleHr": "00:30"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "13-01-2026",
+    "totalMachineWorkingHr": "07:15",
+    "totalMachineIdleHr": "00:45"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "13-01-2026",
+    "totalMachineWorkingHr": "07:25",
+    "totalMachineIdleHr": "00:35"
+  },
+  {
+    "machineId": "Machine 002",
+    "date": "14-01-2026",
+    "totalMachineWorkingHr": "07:45",
+    "totalMachineIdleHr": "00:15"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "01-01-2026",
+    "totalMachineWorkingHr": "05:45",
+    "totalMachineIdleHr": "02:15"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "03-01-2026",
+    "totalMachineWorkingHr": "06:00",
+    "totalMachineIdleHr": "02:00"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "05-01-2026",
+    "totalMachineWorkingHr": "05:30",
+    "totalMachineIdleHr": "02:30"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "05-01-2026",
+    "totalMachineWorkingHr": "05:50",
+    "totalMachineIdleHr": "02:10"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "07-01-2026",
+    "totalMachineWorkingHr": "06:10",
+    "totalMachineIdleHr": "01:50"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "09-01-2026",
+    "totalMachineWorkingHr": "05:40",
+    "totalMachineIdleHr": "02:20"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "12-01-2026",
+    "totalMachineWorkingHr": "05:45",
+    "totalMachineIdleHr": "02:15"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "13-01-2026",
+    "totalMachineWorkingHr": "06:00",
+    "totalMachineIdleHr": "02:00"
+  },
+  {
+    "machineId": "Machine 003",
+    "date": "14-01-2026",
+    "totalMachineWorkingHr": "05:30",
+    "totalMachineIdleHr": "02:30"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "02-01-2026",
+    "totalMachineWorkingHr": "06:50",
+    "totalMachineIdleHr": "01:10"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "04-01-2026",
+    "totalMachineWorkingHr": "07:00",
+    "totalMachineIdleHr": "01:00"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "04-01-2026",
+    "totalMachineWorkingHr": "06:55",
+    "totalMachineIdleHr": "01:05"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "06-01-2026",
+    "totalMachineWorkingHr": "06:40",
+    "totalMachineIdleHr": "01:20"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "08-01-2026",
+    "totalMachineWorkingHr": "06:45",
+    "totalMachineIdleHr": "01:15"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "11-01-2026",
+    "totalMachineWorkingHr": "07:05",
+    "totalMachineIdleHr": "00:55"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "11-01-2026",
+    "totalMachineWorkingHr": "06:50",
+    "totalMachineIdleHr": "01:10"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "12-01-2026",
+    "totalMachineWorkingHr": "06:50",
+    "totalMachineIdleHr": "01:10"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "13-01-2026",
+    "totalMachineWorkingHr": "07:00",
+    "totalMachineIdleHr": "01:00"
+  },
+  {
+    "machineId": "Machine 004",
+    "date": "14-01-2026",
+    "totalMachineWorkingHr": "06:40",
+    "totalMachineIdleHr": "01:20"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "01-01-2026",
+    "totalMachineWorkingHr": "07:05",
+    "totalMachineIdleHr": "00:55"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "03-01-2026",
+    "totalMachineWorkingHr": "07:20",
+    "totalMachineIdleHr": "00:40"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "05-01-2026",
+    "totalMachineWorkingHr": "07:10",
+    "totalMachineIdleHr": "00:50"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "07-01-2026",
+    "totalMachineWorkingHr": "07:15",
+    "totalMachineIdleHr": "00:45"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "07-01-2026",
+    "totalMachineWorkingHr": "07:25",
+    "totalMachineIdleHr": "00:35"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "09-01-2026",
+    "totalMachineWorkingHr": "07:30",
+    "totalMachineIdleHr": "00:30"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "12-01-2026",
+    "totalMachineWorkingHr": "07:05",
+    "totalMachineIdleHr": "00:55"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "12-01-2026",
+    "totalMachineWorkingHr": "07:15",
+    "totalMachineIdleHr": "00:45"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "13-01-2026",
+    "totalMachineWorkingHr": "07:20",
+    "totalMachineIdleHr": "00:40"
+  },
+  {
+    "machineId": "Machine 005",
+    "date": "14-01-2026",
+    "totalMachineWorkingHr": "07:10",
+    "totalMachineIdleHr": "00:50"
+  }
+]
