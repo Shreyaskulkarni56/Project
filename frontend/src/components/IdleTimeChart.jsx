@@ -167,7 +167,11 @@ const IdleTimeChart = ({ data }) => {
                             animationEasing="ease-out"
                         >
                             {chartData.map((entry, index) => (
-                                <Cell key={`cell-${index}`} fill={entry.fill || DEFAULT_COLOR} />
+                                <Cell
+                                    key={`cell-${index}`}
+                                    fill={entry.fill || DEFAULT_COLOR}
+                                    style={{ outline: 'none' }}
+                                />
                             ))}
                         </Pie>
                         <Tooltip content={<CustomTooltip />} />

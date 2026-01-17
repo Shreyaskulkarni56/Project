@@ -280,6 +280,13 @@
   padding: 24px !important;
 }
 
+/* Remove Recharts Focus Outline */
+.recharts-surface:focus,
+.recharts-sector:focus,
+.recharts-wrapper:focus {
+  outline: none !important;
+}
+
 /* Animations */
 @keyframes fadeIn {
   from {

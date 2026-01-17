@@ -51,7 +51,7 @@ const ProductionTable = ({ submittedData, machinesToDisplay }) => {
                         <tfoot>
                             <tr>
                                 <td colSpan="4" style={{ textAlign: 'right', fontWeight: 'bold' }}>Total:</td>
-                                <td style={{ fontWeight: 'bold', color: '#0d7377' }}>{totalIdleTime} Hrs</td>
+                                <td style={{ fontWeight: 'bold', color: '#0d7377' }}>{totalIdleTime}(HH:MM) </td>
                             </tr>
                         </tfoot>
                     </table>
