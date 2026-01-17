@@ -3,12 +3,12 @@ import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recha
 import { timeToMinutes, minutesToTime } from '../utils/timeUtils';
 
 const COLOR_MAP = {
-    'Tea Break': '#FF6B6B',           // coral red
-    'Lunch Break': '#4ECDC4',         // turquoise
-    'Tool Change / Setup': '#45B7D1', // sky blue
-    'Machine Start / Pause': '#FFA07A', // light salmon
-    'Material Waiting': '#98D8C8',    // mint green
-    'Quality Adjustment': '#FFD93D'   // sunny yellow
+    'Tea Break': '#E74C3C',           // solid red
+    'Lunch Break': '#2ECC71',         // solid emerald green
+    'Tool Change / Setup': '#3498DB', // solid blue
+    'Machine Start / Pause': '#F39C12', // solid orange
+    'Material Waiting': '#9B59B6',    // solid purple
+    'Quality Adjustment': '#1ABC9C'   // solid teal
 };
 
 const DEFAULT_COLOR = '#8884d8';
@@ -23,7 +23,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
         <text
             x={x}
             y={y}
-            fill="white"
+            fill="#2d3436"
             textAnchor="middle"
             dominantBaseline="central"
             fontWeight="bold"
@@ -62,6 +62,32 @@ const CustomTooltip = ({ active, payload }) => {
         );
     }
     return null;
+};
+
+const renderLegend = (props) => {
+    const { payload } = props;
+    return (
+        <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            {payload.map((entry, index) => (
+                <li key={`item-${index}`} style={{ marginBottom: '16px', display: 'flex', alignItems: 'center' }}>
+                    <div style={{
+                        width: 12,
+                        height: 12,
+                        borderRadius: '50%',
+                        backgroundColor: entry.color,
+                        marginRight: 12
+                    }} />
+                    <span style={{
+                        color: '#2d3436',
+                        fontWeight: 600,
+                        fontSize: '14px'
+                    }}>
+                        {entry.value}
+                    </span>
+                </li>
+            ))}
+        </ul>
+    );
 };
 
 const IdleTimeChart = ({ data }) => {
@@ -127,11 +153,11 @@ const IdleTimeChart = ({ data }) => {
                     <PieChart>
                         <Pie
                             data={chartData}
-                            cx="50%"
+                            cx="30%"
                             cy="50%"
                             labelLine={false}
                             label={renderCustomizedLabel}
-                            outerRadius={130}
+                            outerRadius={150}
                             dataKey="value"
                             stroke="#fff"
                             strokeWidth={3}
@@ -146,10 +172,11 @@ const IdleTimeChart = ({ data }) => {
                         </Pie>
                         <Tooltip content={<CustomTooltip />} />
                         <Legend
-                            verticalAlign="bottom"
-                            height={36}
-                            iconType="circle"
-                            wrapperStyle={{ paddingTop: '20px' }}
+                            content={renderLegend}
+                            layout="vertical"
+                            verticalAlign="middle"
+                            align="right"
+                            wrapperStyle={{ right: '30%' }}
                         />
                     </PieChart>
                 </ResponsiveContainer>
